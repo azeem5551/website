@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <title>Taxpal </title>
+
+</head>
+<body style="font-family: Outfit, sans-serif;
+font-optical-sizing: auto;
+/* font-weight: 700; */
+font-style: normal;">
+  <!--navbar  -->
+<div class=" w-full flex justify-between py-9 md:py-10 lg:py-10 px-14">
+         
+    <div class="flex justify-evenly md:gap-x-12 ">
+        <a href="#"><img src="images2/logo1.png" alt=""></a>
+    <button class="hidden lg:block md:block hover:bg-slate-200  text-slate-600 hover:rounded-md p-2"> <a href="#Features">Features</a></button>
+    <button class=" hidden lg:block md:block hover:bg-slate-200  text-slate-600 hover:rounded-md p-2"><a href="#Testimonials">Testimonials</a></button>
+    <button class= "hidden lg:block md:block hover:bg-slate-200   text-slate-600 hover:rounded-md p-2"> <a href="#Pricing">Pricing</a></button>
+    </div>
+
+
+<div class="flex justify-end md:gap-8 ">
+    <button class= " hidden lg:block md:block hover:bg-slate-200  text-slate-600  hover:rounded-md p-2"> <a href="signIn.html">Sign in</a></button>
+    <button class=" lg:block md:hidden hidden bg-[#2563eb] rounded-3xl text-white  px-4  font-semibold hover:opacity-[0.8]"><a href="signUp.html">Get started today</a></button>
+    <button class="bg-[#2563eb] block md:block lg:hidden rounded-3xl  px-4 py-1 font-semibold text-white hover:opacity-[0.8] text-[16px]"><a href="signUp.html">Get started</a></button>
+    <div class=" pl-4  md:hidden "> <a class="text-5xl text-[#2563eb]" href="">&#8801</a> </div>
+
+</div>
+    </div>
+    <!-- homepage -->
+   <div >
+   <div><h1 class=" w-auto px-14 lg:px-56 pt-[93px] lg:pt-32 md:pt-32 pb-6 py-4 leading-[1.14] text-center text-wrap font text-5xl md:text-[73px] lg:text-[73px]  font-semibold  "> Accounting <span class= "text-[#2563eb] ">made simple </span> for small businesses. </h1></div>
+
+    <div class="text-center px-10 lg:px-80 text-slate-700 font-normal  lg:text-xl mt-3 text-xl text-wrap " >Most bookkeeping software is accurate, but hard to use. We make the opposite trade-off, and hope you dont get audited.       </div>
+    <!-- <p class="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">Most bookkeeping software is accurate, but hard to use. We make the opposite trade-off, and hope you don’t get audited.</p> -->
+     <div class="flex justify-center gap-5 mt-10">
+        <button class="bg-black rounded-3xl hover:opacity-[0.8] text-white px-4 py-0"> <a href="signUp.html">Get 6 months free </a></button>
+        <button class="rounded-3xl px-8 py-3 border-[1px]"><ul><li class=" list-image-[url(arrow.png)]">watch video</li></ul></button>
+     </div>
+   
+     <div >
+        <p class=" mt-36 mb-7 text-center font-normal text-[17px] text-slate-800 text-wrap">Trusted by these six companies so far</p>
+        <div class="flex flex-col gap-y-4 md:flex-row lg:flex-row gap-10 justify-center">
+            <div class="flex md:flex-col lg:flex-row justify-center gap-10 mt-5 mb-14 ">
+            <img width="158" height="48" src="images/1.jpg" alt="">
+            <img width="105" height="48" src="images/2.jpg" alt="">
+            </div>
+
+            <div class="flex md:flex-col  lg:flex-row justify-center gap-10 mt-5 mb-14 ">   
+            <img width="127" height="48" src="images/3.jpg" alt="">
+            <img  width="138" height="48" src="images/4.jpg" alt="">   </div>
+
+            <div class="flex md:flex-col lg:flex-row justify-center gap-10 mt-5 mb-14 ">   
+            <img width="136" height="48" src="images/5.jpg" alt="">
+            <img width="147" height="48" src="images/6.jpg" alt="">
+            </div>
+        </div>
+
+        </div>
+     </div>
+</div>
+
+        <!-- features section here -->
+        <div id="Features" class="bg-[#2563eb] pb-20">
+            <div class="text-center text-white pt-32 pb-20 w-full  ">
+                <div><p class=" text-[51px]  pb-5  " >Everything you need to run your books.</p></div>
+                <div class="text-gray-200 text-[19px]"><p>Well everything you need if you aren’t that picky about minor details like tax compliance.
+        
+                </p></div>
+            </div>
+            <div class="grid lg:grid-cols-12 grid-rows-1">
+                <div id="colFive" class="col-span-5 bg-[#2563eb] pl-14 py-24 flex flex-col gap-2 " >
+                   <!-- such four buttons are needed here -->
+                    <button id="b1" class="p-8 hover:bg-white/10 ring-1 ring-inset ring-white/10 rounded-l-xl" onclick="changeImage()"> 
+                        <a href="#img1"></a>     
+                        <div class=" text-white">
+                        <div> <h3 class=" text-left pb-3  text-[19px]">Payroll</h3></div>
+                        <div  class="text-left text-gray-200 font-light "><p>Keep track of everyone's salaries and whether or not they've been paid. Direct deposit not supported.</p></div>
+                    </div>
+                </button>
+        
+                <button id="b2" class= "p-8 hover:bg-white/10 rounded-l-xl ring-1 ring-inset ring-white/10"  onclick="changeImage2()"> 
+                    <a href="#img1"></a>  
+                    <div class=" text-white">
+                    <div> <h3 class=" text-left pb-3  text-[19px]">Claim expenses</h3></div>
+                    <div  class="text-left text-gray-200 font-light "><p>All of your receipts organized into one place, as long as you don't mind typing in the data by hand.</p></div>
+                </div>
+            </button>
+        
+            <button class="p-8 hover:bg-white/10 rounded-l-xl  ring-1 ring-inset ring-white/10" onclick="changeImage3()">  
+                <a href="#img1"></a> 
+                <div class=" text-white">
+                <div> <h3 class=" text-left pb-3  text-[19px]">VAT handling</h3></div>
+                <div  class="text-left text-gray-200 font-light "><p>We only sell our software to companies who don't deal with VAT at all, so technically we do all the VAT stuff they need.</p></div>
+            </div>
+        </button>
+        <button class="p-8 hover:bg-white/10 rounded-l-xl ring-1 ring-inset ring-white/10" onclick="changeImage4()"> 
+            <a href="#img1"></a>     
+            <div class=" text-white">
+            <div> <h3 class=" text-left pb-3  text-[19px]">Reporting</h3></div>
+            <div  class="text-left text-gray-200 font-light "><p>Easily export your data into an Excel spreadsheet where you can do whatever the hell you want with it.</p></div>
+        </div>
+        </button>
+                
+                
+                    </div>
+        
+                <div id="colSeven" class="col-span-7 bg-gray-100 py-20 lg: rounded-l-xl relative overflow-hidden h-[800px] w-[700] ">
+                    <img id="img1" class="  rounded-xl w-[100%] overflow-visible " src="images2/payroll.jpg" height="1000px" alt=""></div>
+            </div>
+        
+        </div>
+        
+        
+        <!-- javascript for buttons' functionality -->
+            <script>
+           function changeImage(){
+            // let btn1=document.getElementById("b1")
+        
+            
+        
+            let image1=document.getElementById("img1")
+            
+            if (image1.src != "images2/payroll.jpg" ) {
+                image1.src="images2/payroll.jpg"
+            }
+        
+            }
+        
+            function changeImage2(){
+               
+        
+        
+        let image1=document.getElementById("img1")
+        if (image1.src != "images2/expenses.jpg" ) {
+            image1.src="images2/expenses.jpg" }
+        
+        
+        // if (    image1.src != "images2/expenses.jpg" 
+        //     ) {      
+        //     btn2.style ="background-color: #2563eb" 
+           
+        // }
+        }
+        
+        function changeImage3(){
+        
+        let image1=document.getElementById("img1")
+        if (image1.src != "images2/vat-returns.jpg" ) {
+            image1.src="images2/vat-returns.jpg"
+            
+        }
+        
+        }
+        
+        function changeImage4(){
+        
+        let image1=document.getElementById("img1")
+        if (image1.src != "images2/reporting.jpg" ) {
+            image1.src="images2/reporting.jpg"
+            
+        }
+        
+        }  
+        </script>
+         <!-- features sec end here -->
+
+        <!-- sec#2 -->
+         <!-- <div class=" bg-[url("images1/blue1.jpg")]"> -->
+            <!-- ..... -->
+         <!-- </div> -->
+
+         <div id="Testimonials">
+            <div class="text-center text-wrap bg-slate-50 pb-10 md:px-[297px] lg:px-20 px-14 text-slate-900  ">
+                <h2 class="md:text-[45px] lg:text-5xl text-4xl tracking-tight font-normal pt-32">Loved by businesses worldwide.</h2>
+                <p class="lg:py-6 py-6 md:text-[19px] lg:text-[22px] leading-9 text-[20px] text-slate-700 md:leading-9 font-[350]">Our software is so simple that people can’t help but fall in love with it. Simplicity is easy when you just skip tons of mission-critical features.</p>
+            </div>
+            
+            <div id="full_page" class=" flex md:flex-row md:justify-center bg-slate-50  pb-20 flex-col items-center ">
+            <div id="column">
+            <div id="card" class=" bg-white pb-3 w-[390px] m-4  my-7 pt-6  pl-6   border-1  rounded-2xl shadow-slate-900/10     shadow-xl " >
+                    <div class=" flex-col w-auto  h-auto text-slate-900 font-[340] pr-4 text-[19px] leading-8 pb-5 text-wrap  " ><p >TaxPal is so easy to use I can’t help but wonder if it’s really doing the things the government expects me to do.
+            
+                    </p></div>
+                <div class="flex w-[345px] justify-between pt-4 pb-5 pr-3 gap-x-4 border-t-[1.5px] border-slate-200">
+                    <div>
+                    <div class="text-slate-900">Sheryl Berge </div>
+                    <div class="text-slate-500">CEO at Lynch LLC </div>
+                    </div>
+                    <div> <img  class="rounded-full"  src="images2/avatar-1.jpg" width="56px"  height="56px"></div>
+                </div>
+               </div>
+            
+               <div id="card" class=" bg-white pb-3 w-[390px] m-4  my-7 pt-6  pl-6   border-1  rounded-2xl shadow-slate-900/10     shadow-xl " >
+                <div class=" flex-col w-auto  h-auto   text-slate-900 font-[340] pr-4 text-[19px] leading-8 pb-5 text-wrap  " ><p >I’m trying to get a hold of someone in support, I’m in a lot of trouble right now and they are saying it has something to do with my books. Please get back to me right away.
+            
+                </p></div>
+            <div class="flex w-[345px] justify-between pt-4 pb-5 pr-3 gap-x-4 border-t-[1.5px] border-slate-200">
+                <div>
+                <div class="text-slate-900">Amy Hahn </div>
+                <div class="text-slate-500">Director at Velocity Industries
+                </div>
+                </div>
+                <div> <img  class="rounded-full"  src="images2/avatar-4.jpg" width="56px"  height="56px"></div>
+            </div>
+            </div>
+            
+            </div>
+            
+            <div id="column">
+                <div id="card" class=" bg-white  pb-3 w-[390px] m-4 my-7 pt-6  pl-6   border-1  rounded-2xl shadow-slate-900/10     shadow-xl " >
+                        <div class=" flex-col w-auto  h-auto text-slate-900 pr-4 text-[19px] leading-8 pb-5 text-wrap font-[340] " ><p >The best part about TaxPal is every time I pay my employees, my bank balance does not go down like it used to . Looking forward to spending this extra cash when I would figure out why my card is being declined.
+                
+                        </p></div>
+                    <div class="flex w-[345px] justify-between pt-4 pb-5 pr-3 gap-x-4 border-t-[1.5px] border-slate-200">
+                        <div>
+                        <div class="text-slate-900">Leland Kiehn </div>
+                        <div class="text-slate-500">Founder of Kiehn and Sons </div>
+                        </div>
+                        <div> <img  class="rounded-full"  src="images2/avatar-5.jpg" width="56px"  height="56px"></div>
+                    </div>
+                   </div>
+                
+                   <div id="card" class=" bg-white pb-3 w-[390px] m-4 my-7 pt-6  pl-6   border-1  rounded-2xl shadow-slate-900/10     shadow-xl " >
+                    <div class=" flex-col w-auto  h-auto text-slate-900 pr-4 text-[19px] leading-8 pb-5 text-wrap font-[340] " ><p >There are so many things I had to do with my old software that I just don’t do at all with TaxPal. Suspicious but I can’t say I don’t love it.
+                
+                    </p></div>
+                <div class="flex w-[345px] justify-between pt-4 pb-5 pr-3 gap-x-4 border-t-[1.5px] border-slate-200">
+                    <div>
+                    <div class="text-slate-900">Erin Powlowski
+                    </div>
+                    <div class="text-slate-500">COO at Armstrong Inc
+                    </div>
+                    </div>
+                    <div> <img  class="rounded-full"  src="images2/avatar-2.jpg" width="56px"  height="56px"></div>
+                </div>
+                </div>
+                
+                </div>
+            
+                <div id="column">
+                    <div id="card" class=" bg-white pb-3 w-[390px] m-4 my-7 pt-6  pl-6   border-1  rounded-2xl shadow-slate-900/10     shadow-xl " >
+                            <div class=" flex-col w-auto  h-auto text-slate-900 pr-4 text-[19px] leading-8 pb-5 text-wrap font-[340] " ><p >I used to have to remit tax to the EU and with TaxPal I somehow don’t have to do that anymore. Nervous to travel there now though.
+                    
+                            </p></div>
+                        <div class="flex w-[345px] justify-between pt-4 pb-5 pr-3 gap-x-4 border-t-[1.5px] border-slate-200">
+                            <div>
+                            <div class="text-slate-900">Peter Renolds </div>
+                            <div class="text-slate-500">Founder of West Inc </div>
+                            </div>
+                            <div> <img  class="rounded-full"  src="images2/avatar-3.jpg" width="56px"  height="56px"></div>
+                        </div>
+                       </div>
+                    
+                       <div id="card" class=" bg-white pb-3 w-[390px] m-4 my-7 pt-6  pl-6   border-1  rounded-2xl shadow-slate-900/10     shadow-xl " >
+                        <div class=" flex-col w-auto  h-auto text-slate-900 pr-4 text-[19px] leading-8 pb-5 text-wrap font-[340] " ><p >This is the fourth email I’ve sent to your support team. I am literally being held in jail for tax fraud. Please answer your damn emails, this is important.
+                    
+                        </p></div>
+                    <div class="flex w-[345px] justify-between pt-4 pb-5 pr-3 gap-x-4 border-t-[1.5px] border-slate-200">
+                        <div>
+                        <div class="text-slate-900">Amy Hahn </div>
+                        <div class="text-slate-500">Director at Velocity Industries </div>
+                        </div>
+                        <div> <img  class="rounded-full"  src="images2/avatar-4.jpg" width="56px"  height="56px"></div>
+                    </div>
+                    </div>
+                    
+                    </div>
+            
+                    </div>
+                    </div>
+
+                    <div id="Pricing" class="bg-slate-900 py-10 pt-28">
+                        <div class=" text-center  text-3xl md:text-[40px] text-white">Simple pricing, for everyone.</div>
+                        <p class=" sm:text-sm text-center md:text-[20px] text-slate-400 m-5">It doesn’t matter what size your business is, our software won’t work well for you.</p>
+                    </div>
+                    
+                     
+                    <div id="full " class=" w-auto md:flex-row md:justify-center flex flex-col items-center gap-5 bg-slate-900 pb-28">
+                    <div id="column" class=" rounded-xl flex flex-col gap-4 pl-10 pr-12 pb-20 p-6 text-slate-200  w-[365px] ">
+                    
+                    <div class="text-white text-5xl">9$</div>
+                    <div class=" text-white text-lg pb-2 ">Starter</div>
+                    <div class=" text-slate-200 text-base py-4">Good for anyone who is self-employed and just getting started.</div>
+                    <div><button class="rounded-3xl p-2 border-[0.5px] w-[310px] text-white border-slate-400 hover:border-white "><a href="signUp.html">Get started</a></button></div>
+                    <ul class="leading-10 font-light pt-3 " style=" list-style-image: url(images2/tick.png);">
+                        
+                        <li>Send 10 quotes and invoices</li>
+                        <li>Connect up to 2 bank accounts</li>
+                        <li>Track up to 15 expenses per month</li>
+                        <li>Manual payroll support</li>
+                        <li>Export up to 3 reports </li>
+                    </ul>
+                    
+                    </div>
+                    
+                    <div id="column" class=" rounded-3xl flex flex-col gap-4 pl-10 pr-12 px-18  p-6 text-white border-[#2563eb] border-2 bg-[#2563eb] w-[385px] ">
+                    
+                        <div class="text-white text-5xl">15$</div>
+                        <div class=" text-white text-lg pb-2 ">Small business</div>
+                        <div class=" text-slate-200 text-base py-4">Perfect for small / medium sized businesses.</div>
+                        <div><button class=" bg-white text-black rounded-3xl p-2 border-[0.5px] w-[310px] border-slate-400 hover:border-white "><a href="signUp.html">Get started</a></button></div>
+                        <ul class="leading-10 font-light pt-3 " style=" list-style-image: url(images2/tick.png);">
+                            
+                            <li>Send 25 quotes and invoices</li>
+                            <li>Connect up to 5 bank accounts</li>
+                            <li>Track up to 50 expenses per month</li>
+                            <li>Automated payroll support</li>
+                            <li>Export up to 12 reports </li>
+                            <li>Bulk reconcile transactions        </li>
+                            <li>Track in multiple currencies</li>
+                        </ul>
+                        
+                        </div>
+                    
+                        <div id="column" class=" rounded-xl flex flex-col gap-4 pl-10 pr-12 pb-20 p-6 text-slate-200  w-[365px] ">
+                    
+                            <div class="text-white text-5xl">39$</div>
+                            <div class=" text-white text-lg pb-2 ">Enterprise</div>
+                            <div class=" text-slate-200 text-base py-4">For even the biggest enterprise companies.</div>
+                            <div><button class="rounded-3xl p-2 border-[0.5px] w-[310px] text-white border-slate-400 hover:border-white "> <a href="signUp.html">Get started</a></button></div>
+                            <ul class="leading-10 font-light pt-3 " style=" list-style-image: url(images2/tick.png);">
+                                
+                                <li>Send unlimited quotes and invoices</li>
+                                <li>Connect up to 15 bank accounts</li>
+                                <li>Track up to 200 expenses per month</li>
+                                <li>Automated payroll support</li>
+                                <li>Export up to 25 reports, including TPS </li>
+                            </ul>
+                            
+                            </div>
+                            </div>
+          
+<div class="bg-slate-50 " style="background-image:url('images2/background-faqs.55d2e36a.jpg'); background-repeat: no-repeat;  background-position:center;  ">
+         <div id="FaQ" >
+            
+         <div >
+           <div>
+             <div class="pt-28 max-w-2xl">
+                
+            <h2 class="text-[42px] font-medium my-8 text-wrap pl-8 text-slate-900">Frequently asked questions</h2>
+            <p class="m-8 text-lg text-wrap text-slate-700">If you can’t find what you’re looking for, email our support team and if you’re lucky someone will get back to you.</p> 
+         </div>
+            <div class="flex  gap-8 md:flex-row flex-wrap justify-evenly p-8 pb-40">
+                
+                    <div class="w-[390px] felx flex-col gap-8  ">
+                        <ul class="flex flex-col gap-y-8">
+                            <li>
+                                <h3 class="text-xl text-slate-900 text-wrap font-medium mb-3"> Does TaxPal handle VAT?</h3>
+                                <p class="text-slate-700 text-[16px] text-wrap max-w-xl">Well no, but if you move your company offshore you can probably ignore it.</p>
+
+                            </li>
+                            <li><h3 class="text-xl text-slate-900 text-wrap font-medium mb-3"> Can I pay for my subscription via purchase order?</h3>
+                                <p class="text-slate-700 text-[16px] text-wrap max-w-xl">Absolutely, we are happy to take your money in all forms.</p></li>
+                            <li><h3 class="text-xl text-slate-900 text-wrap font-medium mb-3"> How do I apply for a job at TaxPal?</h3>
+                                <p class="text-slate-700 text-[16px] text-wrap max-w-xl">We only hire our customers, so subscribe for a minimum of 6 months and then let’s talk.</p></li>
+                        </ul>
+                    </div>
+                    <div class="w-[390px] felx flex-col gap-8  ">
+                        <ul class="flex flex-col gap-y-8">
+                            <li><h3 class="text-xl text-slate-900 text-wrap font-medium mb-3">What was that testimonial about tax fraud all about?</h3>
+                                <p class="text-slate-700 text-[16px] text-wrap max-w-xl">TaxPal is just a software application, ultimately your books are your responsibility.</p></li>
+                            <li><h3 class="text-xl text-slate-900 text-wrap font-medium mb-3">TaxPal sounds horrible but why do I still feel compelled to purchase? </h3>
+                                <p class="text-slate-700 text-[16px] text-wrap max-w-xl">This is the power of excellent visual design. You just can’t resist it, no matter how poorly it actually functions.
+
+                                </p></li>
+                            <li><h3 class="text-xl text-slate-900 text-wrap font-medium mb-3"> I found other companies called TaxPal, are you sure you can use this name?</h3>
+                                <p class="text-slate-700 text-[16px] text-wrap max-w-xl">Honestly not sure at all. We haven’t actually incorporated or anything, we just thought it sounded cool and made this website.<p></li>
+                        </ul>
+                    </div>
+                    <div class="w-[390px] felx flex-col gap-8 ">
+                        <ul class="flex flex-col gap-y-8">
+                            <li><h3 class="text-xl text-slate-900 text-wrap font-medium mb-3"> How do you generate reports?</h3>
+                                <p class="text-slate-700 text-[16px] text-wrap max-w-xl">You just tell us what data you need a report for, and we get our kids to create beautiful charts for you using only the finest crayons.</p></li>
+                            <li><h3 class="text-xl text-slate-900 text-wrap font-medium mb-3">Can we expect more inventory features? </h3>
+                                <p class="text-slate-700 text-[16px] text-wrap max-w-xl">In life it’s really better to never expect anything at all. </p></li>
+                            <li><h3 class="text-xl text-slate-900 text-wrap font-medium mb-3"> I lost my password, how do I get into my account?</h3>
+                                <p class="text-slate-700 text-[16px] text-wrap max-w-xl">Send us an email and we will send you a copy of our latest password spreadsheet so you can find your information.<p></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+
+            
+         </div>
+
+         <footer class="bg-slate-50 ">
+            <div class=" border-b-[1.5px] border-slate-200 pt-20">
+                <div class="mt-4 flex justify-center text-center "> <a href="#"><img src="images2/logo.png" alt=""></a></div>
+                <div class="flex justify-center gap-x-5 my-8">
+                    <button class="hover:bg-slate-200  text-slate-600 hover:rounded-md p-2"> <a href="#Features">Features</a></button>
+                    <button class="hover:bg-slate-200  text-slate-600 hover:rounded-md p-2"><a href="#Testimonials">Testimonials</a> </button>
+                    <button class="hover:bg-slate-200   text-slate-600 hover:rounded-md p-2"> <a href="#Pricing">Pricing</a></button>
+                 </div>
+
+            </div>
+            <div class="flex justify-between gap-x-12 py-9 px-6">
+                <div class="flex justify-start text-slate-500 font-normal text-[16px] "><p >Copyright © 2024 TaxPal. All rights reserved.</p></div>
+                <div class=" flex justify-end gap-x-6 "> 
+                  <div>   <a href="#"> <img src="images2/X.png" width="18px" height="18px" alt=""></a></div>
+                   <div><a href="#"> <img src="images2/git.png" width="18px" height="18px" alt=""></a></div>
+            </div>
+         </footer>
+         </div>
+
+
+    
+</body>
+</html>

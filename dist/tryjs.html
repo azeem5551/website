@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class="bg-black">
+
+    <button id="b1" class="border-2 p-4 bg-slate-500 text-white" onclick="changeImage()"><a href="#img1">button</a></button>
+<button id="b2" class="border-2 p-4 bg-slate-500 text-white" onclick="changeImage2()"><a href="#img1">button</a></button>
+<button id="b3" class="border-2 p-4 bg-slate-500 text-white" onclick="changeImage3()"><a href="#img1">button</a></button>
+
+<img  id="img1" class="h-[500px] w-[500px] " src="jsButtons/img1.webp" alt="">
+<!-- <img id="img2" class="h-[500px] w-[500px]" src="jsButtons/img2.webp" alt=""> -->
+<!-- <img id="img3" class="h-[500px] w-[500px]" src="jsButtons/img3.jpg" alt=""> -->
+
+<script>
+   function changeImage(){
+
+    let image1=document.getElementById("img1")
+    if (image1.src != "jsButtons/img1.webp" ) {
+        image1.src="jsButtons/img1.webp"
+        
+    }
+
+    }
+
+    function changeImage2(){
+
+let image1=document.getElementById("img1")
+if (image1.src != "jsButtons/img2.webp" ) {
+    image1.src="jsButtons/img2.webp"
+    
+}
+
+}
+
+function changeImage3(){
+
+let image1=document.getElementById("img1")
+if (image1.src != "jsButtons/img3.jpg" ) {
+    image1.src="jsButtons/img3.jpg"
+    
+}
+
+}
+
+
+   
+   
+</script>
+    
+</body>
+</html>
